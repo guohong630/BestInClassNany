@@ -1,0 +1,184 @@
+/*
+ *  common style for buttons input[type="submit"]
+ *  set bg-color, font
+ */
+.submit-button-style {
+	background: @accent-color-1;
+	color: @accent-color-3;
+	text-transform: uppercase;
+
+	&:hover {
+		text-decoration: underline;
+		color: @accent-color-3 !important;
+	}
+}
+
+/*
+ *  common style for buttons a, button
+ *  set bg-color, font
+ */
+.button-style(@left-start: 50%, @right-start: 50%, @left-stop: 0.8em, @right-stop: 0.8em) {
+	background: @accent-color-1;
+	color:@accent-color-3;
+	.wpv-font(primary-font-);
+	text-transform: uppercase;
+
+	&:after{
+		left: @left-start;
+		right: @right-start;
+		top: 1.6em;
+		transition: all 0.3s ease 0s;
+		position: absolute;
+		content: "";
+		border-top: 1px solid @primary-font-color;
+	}
+
+	&:hover {
+		color:@accent-color-3;
+		text-decoration: none;
+
+		&:after {
+			left: @left-stop;
+			right: @right-stop;
+		}
+	}
+}
+
+.button,
+input[type=button],
+input[type=submit],
+.woocommerce a.button,
+.woocommerce-page a.button,
+.woocommerce div.product form.cart .button,
+.woocommerce-page div.product form.cart .button {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1em;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+	vertical-align: middle;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	.border-radius(3px);
+	.transition(all .1s);
+	font-family: @h4-face;
+}
+
+input[type=button],
+input[type=submit] {
+	.submit-button-style;
+	border: none;
+	padding: 0.5em 1em;
+}
+
+.button,
+a.button,
+.woocommerce a.button,
+.woocommerce-page a.button,
+.woocommerce div.product form.cart .button,
+.woocommerce-page div.product form.cart .button {
+	padding: .6em 1em;
+	border: none;
+	font-weight: bold;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+.button,
+.slogan-content .button {
+	&, &.accent1 {
+		background: @accent-color-1;
+		color:@accent-color-3;
+		.wpv-font(primary-font-);
+		text-transform: uppercase;
+
+		span {
+			color: @accent-color-3;
+		}
+
+		&:after {
+			border:none;
+		}
+	}
+
+	&.accent2 { .button-gen(@accent-color-2); }
+	&.accent3 { .button-gen(@accent-color-3); }
+	&.accent4 { .button-gen(@accent-color-4); }
+	&.accent5 { .button-gen(@accent-color-5); }
+	&.accent6 { .button-gen(@accent-color-6); }
+	&.accent7 { .button-gen(@accent-color-7); }
+	&.accent8 { .button-gen(@accent-color-8); }
+
+}
+
+.button {
+	span {
+		display  : inline-block !important;
+		font-size: 1em;
+		line-height: 1.15;
+		padding  : 0 .4em !important;
+		margin   : 0 0;
+		vertical-align: middle !important;
+
+		&.icon {
+			font-size: 100% !important;
+			line-height: inherit;
+
+			&.shortcode.inverted-colors {
+				font-size: 100% !important;
+				box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 1px 1px rgba(255, 255, 255, 0.2);
+				text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+			}
+
+			&:first-child {
+				margin-right: 0 !important;
+			}
+
+			&:last-child {
+				margin-left : 0 !important;
+			}
+		}
+
+		&.btext {
+			font-weight: bold;
+			position: relative;
+
+			&:after {
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				right: 50%;
+				border-bottom: 1px solid;
+				.transition(all .3s);
+			}
+		}
+	}
+
+	&:hover {
+		.btext {
+			&:after {
+				left: .4em;
+				right: .4em;
+			}
+		}
+	}
+
+	&.full {
+		width: auto;
+		float: none;
+		display: block;
+	}
+}
+
+.read-more-button.icon-a {
+	&:after {
+		padding-left: .5em;
+		font-size: 8px;
+	}
+}

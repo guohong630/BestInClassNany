@@ -1,0 +1,80 @@
+.widget_footer_map {
+	padding-bottom: 0 !important;
+}
+
+.footer-map-trigger {
+	@height: 151px;
+	height: @height;
+	line-height: @height;
+	text-align: center;
+
+	.bg(
+		@fmap-background-image,
+		@fmap-background-repeat,
+		@fmap-background-position,
+		@fmap-background-attachment,
+		@fmap-background-color,
+		@fmap-background-size
+	);
+	background-position: center top;
+
+	.show-fmap-button {
+		background: @accent-color-4;
+		padding: 10px 16px;
+		font-weight: bold;
+		text-decoration: none;
+		position: relative;
+		z-index: 3;
+		color: @accent-color-8;
+		text-transform: uppercase;
+		.border-radius(2px);
+
+		&:hover {
+			text-decoration: none !important;
+		}
+	}
+
+	#footer-sidebars & {
+		margin: 0 -@horizontal-padding;
+	}
+}
+
+.footer-map {
+	height: 0;
+	text-align : center;
+	line-height: 50px;
+	position: relative;
+	overflow: hidden;
+	z-index: 2;
+	background: @body-background-color;
+	.transition(height 0.4s);
+
+	.map {
+		height: 400px;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 2;
+		opacity: 0;
+		.transition(opacity 0.4s);
+
+		img {
+			max-width: none;
+		}
+	}
+
+	body.footer-map-expanded & {
+		line-height: normal;
+		height: 400px;
+
+		.map {
+			opacity: 1;
+		}
+
+		.show-map-button {
+			top: 88%;
+		}
+	}
+}

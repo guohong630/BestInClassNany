@@ -1,0 +1,237 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Flip Image Free v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-03 01:10+0530\n"
+"PO-Revision-Date: 2013-07-03 01:12+0530\n"
+"Last-Translator: admin <chaladi@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: C:\\Users\\Rizwan\\Documents\\hh\\public_html\\hh\\wp-"
+"content\\plugins\\wp-flip-image-free\n"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:213
+msgid "Plugin has successfully saved"
+msgstr "Plugin ist erfolgreich gespeichert worden"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:213
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:245
+msgid "Copy the shortcode"
+msgstr "Kopieren Sie den Shortcode"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:213
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:249
+msgid "and"
+msgstr "und"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:213
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:245
+msgid "paste it on necessary page or post, where you want to show the plugin"
+msgstr ""
+"fügen Sie es ein auf gewünschter Seite oder Posting, wo Sie das Plugin "
+"zeigen wollen"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:237
+msgid "Choose the thumbnail gallery size"
+msgstr "Wählen Sie die Größe der Miniaturbild-Galerie"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:241
+msgid "Upload images, insert text and link"
+msgstr "laden Sie Bilder hoch, fügen Sie Text und Link ein"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:241
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:585
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:249
+msgid "UPGRADE to"
+msgstr "RÜSTEN SIE AUF auf"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:249
+msgid "get many advanced features such"
+msgstr "erhalten Sie viele erweiterte Funktionen wie"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:253
+msgid "<strong>Unlimited galleries</strong>, can be placed on your website"
+msgstr "Unbegrenzte Galerien, können auf Ihre Webseite platziert werden"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:257
+msgid ""
+"Choose between <strong>Thumbnail</strong> or <strong>Slider</strong> gallery "
+"style"
+msgstr "Wählen Sie zwischen Miniaturbild oder Bildershow Galerien"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:261
+msgid ""
+"Slider Gallery with many features: Auto Slide, rotating time, arrows design "
+"and more"
+msgstr ""
+"Bildershow mit vielen Funktionen: Automatische Bildershow, Zeitwechsel, "
+"Design der Pfeile und mehr"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:265
+msgid "Thumbnail style gallery for up to 100 images"
+msgstr "Miniaturbildgalerie für bis zu 100 Bildern"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:269
+msgid ""
+"Full control over the image description (image front side) text, with: font, "
+"size, align & background settings"
+msgstr ""
+"Volle Kontrolle über die Bildbeschreibung (Bildvorderseite) mit: Schrift, "
+"Größe, Ausrichtung und Hintergrundeinstellungen "
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:273
+msgid ""
+"<strong>Advanced Bulk Image Upload</strong>: Upload photo folder with only "
+"few clicks"
+msgstr ""
+"Erweitertes Massen-Hochladen von Bildern: Hochladen eines Foto-Ordners mit "
+"nur ein paar Klicks"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:277
+msgid "Free updates, Fast support and many more"
+msgstr "Holen Sie sich WP Flip Image Pro JETZT"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:281
+msgid "Get WP Flip Image Pro NOW"
+msgstr "Holen Sie sich WP Flip Image Pro JETZT"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:345
+msgid "Gallery Size"
+msgstr "Galeriegröße"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:437
+msgid "Bulk Image Upload"
+msgstr "Massenupload von Bildern"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:449
+msgid "Upload several images"
+msgstr "Laden Sie mehrere Bilder hoch"
+
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:461
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:497
+msgid "Upload"
+msgstr "Hochladen"
+
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:493
+msgid "Image"
+msgstr "Bild"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:517
+msgid "Insert Text"
+msgstr "Fügen Sie Text ein"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:533
+msgid "URL"
+msgstr "URL"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:545
+msgid "Open in new Window"
+msgstr "Öffnen in neuem Fenster"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:581
+msgid "Disable"
+msgstr "Deaktivieren"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:581
+msgid "Powered By"
+msgstr ""
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:581
+msgid "link on the footer"
+msgstr "Link in der Fußzeile"
+
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1125
+msgid "Powered by"
+msgstr ""
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1233
+msgid "Add media files from your computer"
+msgstr "Fügen Sie Medien-Dateien hinzu von Ihrem Computer"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1249
+msgid "Drop files here"
+msgstr "Dateien hier fallenlassen"
+
+# @ default
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1253
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr "oder"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1289
+#, php-format
+msgid "Maximum upload file size: %d%s."
+msgstr "Maximale Dateigröße zum Hochladen: %d%s."
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1301
+msgid "Select All"
+msgstr "Alle auswählen"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1305
+msgid "Insert Selected"
+msgstr "Ausgewählte einfügen"
+
+# @ default
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1359
+msgid "Allowed Files"
+msgstr "Erlaubte Dateien"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1885
+msgid "Language Manager"
+msgstr "Sprachenverwaltung"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1887
+msgid "Current Language"
+msgstr "Aktuelle Sprache"
+
+# @ flip-image-free
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1889
+msgid "Select Admin Language"
+msgstr "Wählen Sie die Admin-Sprache"

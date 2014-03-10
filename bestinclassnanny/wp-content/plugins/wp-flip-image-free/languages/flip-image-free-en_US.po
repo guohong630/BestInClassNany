@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Flip Image Free v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-06-27 06:36:27+0000\n"
+"Last-Translator: admin <chaladi@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: wp-flip-image-free.php:104
+#@ flip-image-pro
+msgid "Plugin has successfully saved"
+msgstr ""
+
+#: wp-flip-image-free.php:104
+#: wp-flip-image-free.php:120
+#@ flip-image-pro
+msgid "Copy the shortcode"
+msgstr ""
+
+#: wp-flip-image-free.php:104
+#: wp-flip-image-free.php:122
+#@ flip-image-pro
+msgid "and"
+msgstr ""
+
+#: wp-flip-image-free.php:104
+#: wp-flip-image-free.php:120
+#@ flip-image-pro
+msgid "paste it on necessary page or post, where you want to show the plugin"
+msgstr ""
+
+#: wp-flip-image-free.php:116
+#@ flip-image-pro
+msgid "Choose the thumbnail gallery size"
+msgstr ""
+
+#: wp-flip-image-free.php:118
+#@ flip-image-pro
+msgid "Upload images, insert text and link"
+msgstr ""
+
+#: wp-flip-image-free.php:118
+#@ flip-image-pro
+msgid "Save Changes"
+msgstr ""
+
+#: wp-flip-image-free.php:122
+#@ flip-image-pro
+msgid "UPGRADE to"
+msgstr ""
+
+#: wp-flip-image-free.php:122
+#@ flip-image-pro
+msgid "get many advanced features such"
+msgstr ""
+
+#: wp-flip-image-free.php:124
+#@ flip-image-pro
+msgid "<strong>Unlimited galleries</strong>, can be placed on your website"
+msgstr ""
+
+#: wp-flip-image-free.php:126
+#@ flip-image-pro
+msgid "Choose between <strong>Thumbnail</strong> or <strong>Slider</strong> gallery style"
+msgstr ""
+
+#: wp-flip-image-free.php:128
+#@ flip-image-pro
+msgid "Slider Gallery with many features: Auto Slide, rotating time, arrows design and more"
+msgstr ""
+
+#: wp-flip-image-free.php:130
+#@ flip-image-pro
+msgid "Thumbnail style gallery for up to 100 images"
+msgstr ""
+
+#: wp-flip-image-free.php:132
+#@ flip-image-pro
+msgid "Full control over the image description (image front side) text, with: font, size, align & background settings"
+msgstr ""
+
+#: wp-flip-image-free.php:134
+#@ flip-image-pro
+msgid "<strong>Advanced Bulk Image Upload</strong>: Upload photo folder with only few clicks"
+msgstr ""
+
+#: wp-flip-image-free.php:136
+#@ flip-image-pro
+msgid "Free updates, Fast support and many more"
+msgstr ""
+
+#: wp-flip-image-free.php:138
+#@ flip-image-pro
+msgid "Get WP Flip Image Pro NOW"
+msgstr ""
+
+#: wp-flip-image-free.php:170
+#@ flip-image-pro
+msgid "Gallery Size"
+msgstr ""
+
+#: wp-flip-image-free.php:216
+#@ flip-image-pro
+msgid "Bulk Image Upload"
+msgstr ""
+
+#: wp-flip-image-free.php:222
+#@ flip-image-pro
+msgid "Upload several images"
+msgstr ""
+
+#: wp-flip-image-free.php:256
+#@ flip-image-pro
+msgid "Insert Text"
+msgstr ""
+
+#: wp-flip-image-free.php:264
+#@ flip-image-pro
+msgid "URL"
+msgstr ""
+
+#: wp-flip-image-free.php:270
+#@ flip-image-pro
+msgid "Open in new Window"
+msgstr ""
+
+#: wp-flip-image-free.php:288
+#@ flip-image-pro
+msgid "Disable"
+msgstr ""
+
+#: wp-flip-image-free.php:288
+#: wp-flip-image-free.php:560
+#@ flip-image-pro
+msgid "Powered By"
+msgstr ""
+
+#: wp-flip-image-free.php:288
+#@ flip-image-pro
+msgid "link on the footer"
+msgstr ""
+
+
+#: wp-flip-image-free.php:614
+#@ flip-image-pro
+msgid "Add media files from your computer"
+msgstr ""
+
+#: wp-flip-image-free.php:622
+#@ flip-image-pro
+msgid "Drop files here"
+msgstr ""
+
+#: wp-flip-image-free.php:624
+#@ default
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr ""
+
+#: wp-flip-image-free.php:628
+#@ flip-image-pro
+msgid "Select Files"
+msgstr ""
+
+#: wp-flip-image-free.php:642
+#, php-format
+#@ flip-image-pro
+msgid "Maximum upload file size: %d%s."
+msgstr ""
+
+#: wp-flip-image-free.php:648
+#@ flip-image-pro
+msgid "Select All"
+msgstr ""
+
+#: wp-flip-image-free.php:650
+#@ flip-image-pro
+msgid "Insert Selected"
+msgstr ""
+
+#: wp-flip-image-free.php:677
+#@ default
+msgid "Allowed Files"
+msgstr ""
+
+#: wp-flip-image-free.php:940
+#@ flip-image-pro
+msgid "Language Manager"
+msgstr ""
+
+#: wp-flip-image-free.php:941
+#@ flip-image-pro
+msgid "Current Language"
+msgstr ""
+
+#: wp-flip-image-free.php:942
+#@ flip-image-pro
+msgid "Select Admin Language"
+msgstr ""
+

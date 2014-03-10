@@ -1,0 +1,85 @@
+blockquote {
+	text-align: left;
+	z-index: 1;
+	position: relative;
+	padding-left: @small-padding;
+	border-left: 5px solid @accent-color-2;
+	margin: @vertical-padding 0;
+	overflow: hidden;
+
+	.quote-title {
+		display: block;
+	}
+
+	.quote-text {
+		overflow: hidden;
+	}
+
+	p, & {
+		margin-bottom: 0;
+		.wpv-font(h2-);
+	}
+
+	&.small {
+		p, & {
+			margin-bottom: 0;
+			.wpv-font(primary-font-);
+		}
+	}
+
+	&.simple {
+		border-left: 0;
+		padding-left: 0;
+		padding: @vertical-padding/2 0;
+		margin: 0;
+		overflow: auto;
+	}
+
+	.cite,
+	cite {
+		display: block;
+		margin: @small-padding/2 0 0 0;
+
+		&, a {
+			.wpv-font(h6-);
+			color: @css_link_color;
+		}
+
+		a {
+			vertical-align: middle;
+		}
+
+		&:before {
+			content: "";
+			display: inline-block;
+			width: 30px;
+			height: 0;
+			border-bottom: 1px solid @default-line-color;
+			vertical-align: middle;
+			margin-right: 10px;
+		}
+	}
+
+	&:last-child {
+		cite:empty,
+		.cite:empty {
+			display: none;
+		}
+	}
+
+	> .quote-thumbnail {
+		float: left;
+		margin-right: @small-padding;
+		overflow: hidden;
+	}
+
+	.slide-wrapper & {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	p {
+		&:first-child { margin-top: 0; }
+		&:last-child { margin-bottom: 0; }
+	}
+}

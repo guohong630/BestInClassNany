@@ -1,0 +1,103 @@
+.row {
+	> div {
+		&.accent1 {.column-gen(@accent-color-1); }
+		&.accent2 {.column-gen(@accent-color-2); }
+		&.accent3 {.column-gen(@accent-color-3); }
+		&.accent4 {.column-gen(@accent-color-4); }
+		&.accent5 {.column-gen(@accent-color-5); }
+		&.accent6 {.column-gen(@accent-color-6); }
+		&.accent7 {.column-gen(@accent-color-7); }
+		&.accent8 {.column-gen(@accent-color-8); }
+
+		&.extended {
+			&.grid-1-1 {
+				body.full & {
+					margin-left: -2000px;
+					margin-right: -2000px;
+					padding-left: 2000px;
+					padding-right: 2000px;
+					.content-box();
+
+					> .extended-column-inner,
+					> .wpv-parallax-bg-content .extended-column-inner {
+						padding-left: @horizontal-padding/2;
+						padding-right: @horizontal-padding/2;
+					}
+				}
+
+				body.boxed & {
+					padding-left: @horizontal-padding-large;
+					padding-right: @horizontal-padding-large;
+					margin-left: -(@horizontal-padding-large - (@horizontal-padding/2));
+					margin-right: -(@horizontal-padding-large - (@horizontal-padding/2));
+					width: auto;
+					float: none;
+
+					&.no-extended-padding {
+						padding-left: @horizontal-padding/2;
+						padding-right: @horizontal-padding/2;
+					}
+				}
+
+				.loop-wrapper.news {
+					padding-top: @content-padding/2 !important;
+				}
+			}
+		}
+
+		&.has-background {
+			padding: 0 @small-padding;
+		}
+
+		html.csstransitions &.animated-active {
+			opacity: 0;
+			-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+			transition: transform 0.5s, opacity 0.5s;
+
+			&.animation-from-left {
+				.translateHardware(-80px, 0);
+			}
+
+			&.animation-from-right {
+				.translateHardware(80px, 0);
+			}
+
+			&.animation-ended {
+				.transform(none);
+				opacity: 1;
+			}
+		}
+
+		&.parallax-bg,
+		&.parallax-bg-suspended {
+			z-index: 0;
+		}
+
+		&.parallax-bg {
+			display: none;
+
+			&.parallax-loaded,
+			&.parallax-bg-suspended {
+				display: block;
+			}
+
+		}
+
+		&.parallax-bg-suspended {
+			background-attachment: scroll !important;
+		}
+	}
+}
+
+.wpv-parallax-bg-img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.wpv-parallax-bg-content {
+	z-index: 0;
+}

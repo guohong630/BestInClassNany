@@ -1,0 +1,20 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+        <custom-type translate="1">testimonials</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">portfolio_category</taxonomy>
+        <taxonomy translate="1">testimonials_category</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="wpv_fmap-text-open" />
+        <key name="wpv_fmap-text-close" />
+        <key name="wpv_fmap-address" />
+        <key name="wpv_fmap-html" />
+        <key name="related-posts-title" />
+        <key name="related-portfolios-title" />
+    </admin-texts>
+</wpml-config>
+
+

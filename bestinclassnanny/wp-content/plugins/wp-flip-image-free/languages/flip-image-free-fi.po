@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Flip Image Free v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-03 01:15+0530\n"
+"PO-Revision-Date: 2013-07-03 01:15+0530\n"
+"Last-Translator: admin <chaladi@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: C:\\Users\\Rizwan\\Documents\\hh\\public_html\\hh\\wp-"
+"content\\plugins\\wp-flip-image-free\n"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:213
+msgid "Plugin has successfully saved"
+msgstr "Liitäntä on onnistuneesti tallentanut"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:213
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:245
+msgid "Copy the shortcode"
+msgstr "Kopioi lyhytkoodi"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:213
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:249
+msgid "and"
+msgstr "ja"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:213
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:245
+msgid "paste it on necessary page or post, where you want to show the plugin"
+msgstr ""
+"liitä se tarvittavan sivuun tai kirjoitukseen, jossa haluat liitännän näkyvän"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:237
+msgid "Choose the thumbnail gallery size"
+msgstr "Valitse pienoiskuvagallerian oko"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:241
+msgid "Upload images, insert text and link"
+msgstr "Lataa kuvia, lisää tekstiä ja linkkejä"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:241
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:585
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:249
+msgid "UPGRADE to"
+msgstr "Päivitä"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:249
+msgid "get many advanced features such"
+msgstr "saadaksesi paljon lisäasetuksia kuten"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:253
+msgid "<strong>Unlimited galleries</strong>, can be placed on your website"
+msgstr ""
+"<strong>Rajattomasti gallerioita</strong>, joita voi liittää mihin tahansa "
+"sivullesi"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:257
+msgid ""
+"Choose between <strong>Thumbnail</strong> or <strong>Slider</strong> gallery "
+"style"
+msgstr ""
+"Valitse <strong>pienoiskuva gallerian</strong> tai <strong>Slider</strong> "
+"gallerian välillä"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:261
+msgid ""
+"Slider Gallery with many features: Auto Slide, rotating time, arrows design "
+"and more"
+msgstr ""
+"Slidergalleria monella toiminnolla: Auto slide, pyörimisaika, nuolidesign ja "
+"muuta"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:265
+msgid "Thumbnail style gallery for up to 100 images"
+msgstr "Pienoiskuvagalleria jopa 100 kuvalle"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:269
+msgid ""
+"Full control over the image description (image front side) text, with: font, "
+"size, align & background settings"
+msgstr ""
+"Täysi hallinta kuvaustekstistä (kuvien etupuoli): fontti, koko, tasaus- ja "
+"tausta-asetukset"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:273
+msgid ""
+"<strong>Advanced Bulk Image Upload</strong>: Upload photo folder with only "
+"few clicks"
+msgstr ""
+"<strong>Joukkokuvalataus</strong>: Lataa kuvakansio vain muutamalla "
+"klikkauksella"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:277
+msgid "Free updates, Fast support and many more"
+msgstr "Ilmaiset päivitykset, Nopea tuki ja paljon muuta"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:281
+msgid "Get WP Flip Image Pro NOW"
+msgstr "Hanki WP Flip Image Pro HETI"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:345
+msgid "Gallery Size"
+msgstr "Gallerian koko"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:437
+msgid "Bulk Image Upload"
+msgstr "Joukkokuvalataus"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:449
+msgid "Upload several images"
+msgstr "Lataa useampia kuvia"
+
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:461
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:497
+msgid "Upload"
+msgstr "Lataa"
+
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:493
+msgid "Image"
+msgstr "kuva"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:517
+msgid "Insert Text"
+msgstr "Lisää tekstiä"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:533
+msgid "URL"
+msgstr ""
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:545
+msgid "Open in new Window"
+msgstr "Avaa uudessa ikkunassa"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:581
+msgid "Disable"
+msgstr "Poista käytöstä"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:581
+msgid "Powered By"
+msgstr ""
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:581
+msgid "link on the footer"
+msgstr "linkki sivun alareunasta"
+
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1125
+msgid "Powered by"
+msgstr ""
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1233
+msgid "Add media files from your computer"
+msgstr "Lisää mediatiedostoja tietokoneeltasi"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1249
+msgid "Drop files here"
+msgstr "Pudota tiedostot tähän"
+
+# @ default
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1253
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr "tai"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1289
+#, php-format
+msgid "Maximum upload file size: %d%s."
+msgstr "Isoin latauskoko: %d%s."
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1301
+msgid "Select All"
+msgstr "Valitse kaikki"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1305
+msgid "Insert Selected"
+msgstr "Lisää valitut"
+
+# @ default
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1359
+msgid "Allowed Files"
+msgstr "Sallitut tiedostot"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1885
+msgid "Language Manager"
+msgstr "Kielihallinta"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1887
+msgid "Current Language"
+msgstr "Nykyinen kieli"
+
+# @ flip-image-pro
+#: C:\Users\Rizwan\Documents\hh\public_html\hh\wp-content\plugins\wp-flip-image-free/wp-flip-image-free.php:1889
+msgid "Select Admin Language"
+msgstr "Valitse ylläpidon kieli"

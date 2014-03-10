@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wp-flip-image-free-icon {
+    float: left;
+    height: 34px;
+    margin: 7px 8px 0 0;
+    width: 36px;
+	background-image: url("../images/icons.png");
+	background-color: transparent;
+    background-repeat: no-repeat;
+}
+.wp_flip_image_free-heading-free {
+    border: 1px solid #E6E6E6;
+    border-radius: 3px 3px 3px 3px;
+    float: left;
+    margin: 5px 0 15px;
+    width: 100%;
+}
+.wp_flip_image_free-updated-fade-free {
+    background-color: #FFFFE0;
+    border-color: #E6DB55;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    margin: 5px 0 15px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.wp_flip_image_free-updated-fade-free span{
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.wp_flip_image_free-heading-free p,
+.wp_flip_image_free-updated-fade-free p,
+.wp_flip_image_free-success-fade-free p{
+   margin:10px;
+}
+
+.wp_flip_image_free-content-free{
+    float: left;
+    width: 100%;
+}
+.wp_flip_image_free-box-free{
+    border: 1px solid #E6E6E6;
+    border-radius: 3px 3px 3px 3px;
+    float: left;
+    margin: 5px 0 15px;
+    padding:10px;
+    width: 98%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+.wp_flip_image_free-box-free input{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.wp_flip_image_free-success-fade-free {
+    background-color: #FFFFE0;
+    border-color: #E6DB55;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    float: left;
+    margin: 5px 0 15px;
+    width: 100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.uploaded-images{
+   margin-top:10px;
+}
+.uploaded-item{
+  margin-bottom:1px;
+}
+.rolling-media-title{
+ font-family:Verdana,Arial,Helvetica,sans-serif;
+ font-size:14px;
+ margin-bottom: 10px !important;
+ margin-top: 10px;
+}
+.fileprogress {
+    width: 0%;
+    background: #B7C53D;
+    height: 5px;
+}

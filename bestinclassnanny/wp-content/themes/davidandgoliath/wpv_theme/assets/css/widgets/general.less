@@ -1,0 +1,266 @@
+.widget {
+	padding: 0;
+	margin: 0 auto @content-padding;
+
+	.widget-title {
+		padding: @small-padding / 2;
+		border-top: 1px solid @accent-color-7;
+		border-bottom: 1px solid @accent-color-7;
+		margin: 0;
+		line-height: 1em !important;
+		white-space: nowrap;
+		word-wrap:break-word;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		font-size: 14px !important;
+
+		> .icon {
+			margin-right: @small-padding / 2;
+			color: @accent-color-3;
+		}
+	}
+
+	&:last-child {
+		background: transparent;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		border-bottom: 0;
+	}
+
+	&.last-child {
+		background: transparent;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		border-bottom: 0;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	li {
+		margin: 0;
+		padding: 5px 0;
+		position: relative;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: break-word;
+	}
+
+	select {
+		max-width: 100%;
+	}
+}
+
+/* Widgets in sidebars ------------------------------------------------------ */
+.widget-box {
+	border: 1px solid @accent-color-7;
+	padding: 10px;
+
+	&:after {
+		content: "";
+		display: block;
+		height : 1px;
+		margin: 0 -10px;
+		clear : both;
+		position: relative;
+		top: 10px;
+	}
+}
+
+aside.left,
+aside.right,
+#header-sidebars {
+	.widget {
+		background: @default-bg-color;
+		border-bottom: 1px solid @accent-color-7;
+		border-right: 1px solid @accent-color-7;
+		border-left: 1px solid @accent-color-7;
+		margin: 0 0 @content-padding-large 0;
+		padding: 0;
+
+		.widget-title {
+			background: @main-background-color;
+
+			> .icon {
+				margin-top: -3px;
+
+				&.shortcode {
+					color: @accent-color-7;
+				}
+			}
+		}
+
+		> ul, > div, > h4+form {
+			.widget-box;
+		}
+
+		.widget-title + ul,
+		.widget-title + div,
+		.widget-title + form {
+			border: none;
+		}
+
+		&.wpv_posts {
+			> .ui-widget-content {
+				border : none;
+				padding: 0;
+				&:after {
+					display: none;
+				}
+
+				.tagcloud {
+					padding: 0;
+
+					a {
+						margin: 2px;
+					}
+				}
+
+				.posts_list {
+					margin: 0 -10px;
+
+
+					li {
+						padding-bottom: 0;
+
+
+						.clearfix {
+							border-bottom: none;
+							padding: 10px 0;
+
+
+							&:hover {
+								background: @accent-color-8;
+							}
+
+
+							.thumbnail {
+								margin: 0 10px;
+								position: relative;
+
+								&:after {
+									content: icon(camera);
+									font-family: icomoon;
+									border: none;
+									position: absolute;
+									left: 10px;
+									bottom: 25px;
+									top: auto;
+									z-index: 10;
+									color: @default-bg-color;
+									font-size: 15px;
+								}
+
+								&:before {
+									border: none;
+								}
+
+
+							}
+							.post_extra_info  {
+								margin: 0 10px;
+
+								h5.title {
+									font: bold 12px/15px Open Sans !important;
+
+									a {
+										font: bold 12px/15px Open Sans !important;
+									}
+								}
+
+								h6.date {
+									padding-top: 0px;
+									line-height: 1.5;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.ui-tabs-nav {
+				border-bottom: none;
+				border-left: none;
+				border-right: none;
+			}
+
+			.pane {
+				.widget-box;
+				border-left:none;
+				border-right:none;
+				border-bottom:none;
+				padding-top: 0;
+			}
+		}
+
+		ul.product-categories {
+			padding: 0 !important;
+
+			li {
+				padding: 9px 25px 9px 37px;
+			}
+
+			li.current-cat{
+				background: @accent-color-8;
+				color:@accent-color-4;
+
+				&:before {
+					content: icon(checkmark);
+					font-family: icomoon;
+					color: @accent-color-4;
+					position: absolute;
+					left: 15px;
+					top: 25%;
+				}
+			}
+		}
+	}
+
+	.woocommerce.widget_price_filter {
+		.price_slider {
+			height: 0.8em;
+
+			> div.ui-slider-range {
+				background: @accent-color-2;
+				box-shadow: none !important;
+			}
+
+			> a.ui-slider-handle {
+				border: 6px solid @accent-color-2 !important;
+				background: #fff;
+				box-shadow: none !important;
+				height: 0.5em;
+				width: 0.5em;
+			}
+		}
+
+		.price_slider_amount{
+			.button {
+				.button-style(50%, 50%, 0.55em, 0.3em);
+				 padding: .7em .5em !important;
+				 border: none !important;
+				 box-shadow: none !important;
+				 text-shadow: none !important;
+				 font-weight: bold;
+
+				&:after {
+					top: 2em;
+				}
+
+				&:hover {
+					color:@accent-color-3 !important;
+				}
+			}
+		}
+	}
+}
+
+/* Widgets in footer -------------------------------------------------------- */
+#footer-sidebars .widget {
+	.widget-title {
+		white-space: normal;
+	}
+}

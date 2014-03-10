@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Feedburner Email Subscription\n"
+"POT-Creation-Date: 2013-03-19 20:55+0700\n"
+"PO-Revision-Date: 2013-03-19 20:56+0700\n"
+"Last-Translator: zourbuth <zourbuth@gmail.com>\n"
+"Language-Team: Zourbuth <zourbuth@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\area51\\wp-content\\plugins"
+"\\feedburner-email-subscription\n"
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:201
+msgid "Title"
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:203
+msgid "Give the widget a title, leave empty for no title."
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:206
+msgid "Your Feedburner Title"
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:208
+msgid "Example: zourbuth"
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:211
+msgid "Input Text"
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:213
+msgid "The email input text."
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:216
+msgid "Submit Button Text"
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:218
+msgid "The form submit button text."
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:222
+msgid "Display posts feed link"
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:226
+msgid "Display comments feed link"
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:229
+msgid "Intro Text"
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:231
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:236
+msgid "This field support shortcodes and HTML."
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:234
+msgid "Outro Text"
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:251
+msgid "Like my work? Please consider to "
+msgstr ""
+
+#: C:\xampp\htdocs\area51\wp-content\plugins\feedburner-email-subscription/feedburner-email-subscription-widget.php:251
+msgid "donate"
+msgstr ""

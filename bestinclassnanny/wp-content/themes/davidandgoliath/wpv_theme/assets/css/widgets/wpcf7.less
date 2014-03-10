@@ -1,0 +1,127 @@
+div.wpcf7-response-output, 
+div.wpcf7-validation-errors {
+	margin: 1em 0 0 !important;
+	position: relative;
+	z-index: 8;
+}
+
+.wpcf7-not-valid {
+	border-color: #D94729;
+}
+
+.wpcf7-not-valid-tip {
+	display: none !important;
+}
+
+div.wpcf7 {
+	.wpcf7-form {
+		display: block;
+		margin: 0;
+		
+		.wpcf7-submit {
+			font-weight: bold;
+
+			&:hover {
+				color: @accent-color-3 !important;
+			}
+		}
+	}
+}
+
+.vamtam-newsletter-form {
+	display: table;
+	height: 100%;
+	margin: 0 !important;
+	
+	.cell-wrapper {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+	.wpcf7-form-control-wrap {
+		position: relative;
+		display : inline-block;
+		width: 100%;
+		
+		.ajax-loader {
+			display: none;
+		}
+		
+		&.submit {
+			margin-right: 0;
+			background: #fff;
+			color: transparent !important;
+			cursor: pointer;
+			
+			input {
+				text-indent: -300px;
+				width: 40px;
+				border-top: 1px solid @accent-color-7 !important;
+				border-right: 1px solid @accent-color-7 !important;
+				border-bottom: 1px solid @accent-color-7 !important;
+			}
+			
+			&:before {
+				content: icon(theme-mail);
+				color: @accent-color-2;
+				display: block;
+				font-family: theme;
+				font-size: 16px;
+				height: 30px;
+				left: 50%;
+				line-height: 30px;
+				margin-left: -15px;
+				margin-top : -15px;
+				position: absolute;
+				top: 50%;
+				width: 30px;
+				text-align : center;
+			}
+		}
+		
+		input { 
+			display: block;
+			margin : 0;
+			padding: 6px 10px;
+			height : 29px;
+			border : 0;
+			border: none;
+			.border-box();
+			box-shadow: 0 2px 1px -1px rgba(255, 255, 255, 0.6);
+			color: darken(@accent-color-6, 50%);
+			
+			&[type="submit"],
+			&[type="button"] {
+				color: transparent !important;
+				background: transparent !important;
+				
+				.ie8 & {
+					filter: none !important;
+				}
+			}
+			
+			&[type="email"] {
+				border-top: 1px solid @accent-color-7 !important;
+				border-left: 1px solid @accent-color-7 !important;
+				border-bottom: 1px solid @accent-color-7 !important;
+				background: #fff;
+			}
+		}
+		
+		.wpcf7-not-valid-tip {
+			left: 0;
+			top: 100%;
+			width: auto;
+			min-width: 100%;
+			padding: 3px 6px;
+			.border-box();
+			box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+			color: darken(@accent-color-6, 50%);
+		}
+	}
+	
+	div.wpcf7-response-output, 
+	div.wpcf7-validation-errors {
+		color: #840;
+	}
+}

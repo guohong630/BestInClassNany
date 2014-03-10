@@ -1,0 +1,108 @@
+@media (max-width: 479px) {
+	.responsive-layout {
+		&.woocommerce,
+		&.woocommerce-page,
+		.woocommerce-scrollable.scroll-x {
+			.page-outer-wrapper {
+				.woocommerce-result-count {
+					margin: @small-padding 0 0;
+					text-align: center;
+					width: 100%;
+				}
+
+				.woocommerce-ordering {
+					margin: @small-padding 0;
+					text-align: center;
+					width: 100%;
+				}
+			}
+
+			.cart {
+				td,
+				th {
+					&.product-price {
+						display: none;
+					}
+				}
+
+				td.actions {
+					.button.alt {
+						display: block;
+						float: none;
+						margin: 1em 0 0 0;
+					}
+				}
+			}
+		}
+
+		.main-menu {
+			clear: both;
+			float: left;
+			display: block;
+			width: 100% !important;
+			height: auto !important;
+			padding: 0 20px 20px !important;
+			.border-box();
+
+			.menu {
+				display: none;
+			}
+
+			* {
+				display: block;
+				float: none !important;
+			}
+		}
+
+		#footer-sidebars {
+			> .row {
+				aside {
+					padding: @content-padding 0 !important;
+					margin: 0 !important;
+				}
+			}
+		}
+
+		&.single-portfolio {
+			.portfolios {
+				> ul {
+					> li.has-description {
+						margin-bottom: @content-padding !important;
+					}
+				}
+			}
+
+			aside.right {
+				margin-top: 0 !important;
+			}
+		}
+
+		&.fast-slider {
+			.fast-slider-navbar {
+				.title {
+					padding-top: @content-padding-large;
+				}
+			}
+
+			.fast-slider-arrows {
+				position: absolute;
+				left: -@small-padding+10;
+				top: 10%;
+			}
+
+			.fast-slider-caption {
+				margin-top: @content-padding;
+				height:auto !important;
+			}
+		}
+
+		&.no-header-slider.boxed #header-middle.normal {
+			.portfolios,
+			.loop-wrapper {
+				html.touch &.scroll-x {
+					margin: 0 -@horizontal-padding/2;
+				}
+			}
+		}
+	}
+}
